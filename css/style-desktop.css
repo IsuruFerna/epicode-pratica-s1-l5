@@ -49,15 +49,15 @@ header img {
    width: 50%;
    max-width: 240px;
    padding: 2em;
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: 0;
 }
 
 .container-header {
    background-image: url("/images/banner.jpg");
    text-align: center;
-   padding: 1em 1em 3em 1em;
    background-size: cover;
+   height: 100%;
+   padding: 4em 0 6em;
 }
 
 .container-header h1 {
@@ -85,7 +85,16 @@ h3 {
 
 .container-main {
    text-align: center;
-   padding: 3em 1.2em;
+   padding: 6em 1.2em;
+   display: flex;
+   margin-right: auto;
+   margin-left: auto;
+   width: 75%;
+}
+
+.container-main-content {
+   text-align: left;
+   padding-left: 5em;
 }
 
 .container-main p {
@@ -94,7 +103,6 @@ h3 {
 
 .container-main img {
    border-radius: 50%;
-   width: 70%;
    margin-top: 1.8em;
 }
 
@@ -104,13 +112,17 @@ h3 {
    color: #fff;
 }
 
+.container-testimonial i {
+   font-size: 1.8em;
+}
+
 .container-testimonial h3 {
    color: #fff;
-   padding: 2em 0 1em;
+   padding: 3em 0 0.6em;
 }
 
 .container-testimonial-ceo {
-   padding: 2em;
+   padding: 1em 0 6em;
 }
 
 .text-testimonial {
@@ -121,8 +133,14 @@ h3 {
    font-size: 0.9em;
 }
 
+.container-content {
+   display: flex;
+   width: 90%;
+   margin: 4em auto 6em;
+}
+
 .content {
-   margin: 1.6em;
+   margin: 1em;
    text-align: center;
    border: 1px solid #dee1e3;
    padding-bottom: 2em;
@@ -140,27 +158,45 @@ h3 {
 footer {
    color: #c8e7f0;
    background-color: hsl(192.15deg 67.08% 47.65%);
-   text-align: center;
+   text-align: left;
    padding: 2em 0 4em 0;
 }
 
+.footer {
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25%;
+   max-width: 350px;
+}
+
+.container-footer {
+   margin-left: auto;
+   margin-right: auto;
+}
+
 footer h3 {
+   font-size: 2.6em;
    color: #fff;
    margin-bottom: 0.4em;
+   padding: 0;
 }
 
 footer a {
    color: #c8e7f0;
+   font-size: 0.9em;
 }
 
-footer div {
-   /* padding: 1.2em auto 2em auto; */
+.footer-credits {
    margin-top: 3em;
 }
 
 footer div p {
-   border-top: 1px solid #c8e7f0;
-   padding-top: 1.2em;
+   padding: 1.2em 2em;
    text-align: left;
    display: inline;
+   width: 25%;
+   max-width: 350px;
+   border-top: 1px solid #c8e7f0;
+   font-size: 0.8em;
 }
