@@ -1,0 +1,166 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400;700&display=swap");
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body {
+   color: #393d41;
+   font-size: 1.2em;
+   font-family: "Open Sans", sans-serif;
+   line-height: 1.65;
+   text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #25a2c3;
+   font-family: "Montserrat", sans-serif;
+   font-weight: bold;
+   line-height: 1.5;
+}
+
+i {
+   font-style: italic;
+}
+
+button {
+   color: #fff;
+   background-color: #f04c2f;
+   border-radius: 5px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: bold;
+   padding: 1em 3em;
+   border: 0;
+   cursor: pointer;
+}
+
+header {
+   width: 100%;
+   background-color: #000;
+}
+
+header img {
+   display: block;
+   width: 50%;
+   max-width: 240px;
+   padding: 2em;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.container-header {
+   background-image: url("/images/banner.jpg");
+   text-align: center;
+   padding: 1em 1em 3em 1em;
+   background-size: cover;
+}
+
+.container-header h1 {
+   padding: 1em 1.4em 0.6em;
+   /* line-height: 1; */
+}
+
+.container-header p {
+   margin-bottom: 2em;
+}
+
+h1 {
+   font-size: 2.4em;
+}
+
+h2 {
+   font-size: 1.4em;
+   margin: 0.6em auto;
+}
+
+h3 {
+   font-size: 2em;
+   color: #fff;
+}
+
+.container-main {
+   text-align: center;
+   padding: 3em 1.2em;
+}
+
+.container-main p {
+   padding-bottom: 0.5em;
+}
+
+.container-main img {
+   border-radius: 50%;
+   width: 70%;
+   margin-top: 1.8em;
+}
+
+.container-testimonial {
+   text-align: center;
+   background-color: #e22d0e;
+   color: #fff;
+}
+
+.container-testimonial h3 {
+   color: #fff;
+   padding: 2em 0 1em;
+}
+
+.container-testimonial-ceo {
+   padding: 2em;
+}
+
+.text-testimonial {
+   font-size: 1.6em;
+}
+
+.container-testimonial-ceo p:last-child {
+   font-size: 0.9em;
+}
+
+.content {
+   margin: 1.6em;
+   text-align: center;
+   border: 1px solid #dee1e3;
+   padding-bottom: 2em;
+   border-radius: 5px;
+}
+
+.content p {
+   padding: 0 1.6em;
+}
+
+.content img {
+   width: 100%;
+}
+
+footer {
+   color: #c8e7f0;
+   background-color: hsl(192.15deg 67.08% 47.65%);
+   text-align: center;
+   padding: 2em 0 4em 0;
+}
+
+footer h3 {
+   color: #fff;
+   margin-bottom: 0.4em;
+}
+
+footer a {
+   color: #c8e7f0;
+}
+
+footer div {
+   /* padding: 1.2em auto 2em auto; */
+   margin-top: 3em;
+}
+
+footer div p {
+   border-top: 1px solid #c8e7f0;
+   padding-top: 1.2em;
+   text-align: left;
+   display: inline;
+}
